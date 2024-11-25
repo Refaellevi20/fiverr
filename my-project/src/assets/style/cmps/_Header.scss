@@ -1,0 +1,107 @@
+header {
+    height: 700px;
+    background-color: #014e56;
+    color: $white;
+
+    .header-container {
+        h1 {}
+
+        .header-top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .grouped-elements-header {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+
+        .button-header {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 2em;
+            cursor: pointer;
+            background-color: #014e56;
+            border: 1px solid $white ;
+            color: $white;
+
+            &:hover {
+                background-color: $white;
+                color: black;
+            }
+        }
+    }
+
+    .middle-header {
+        display: flex;
+        justify-content: space-between;
+
+        .top-img {}
+    }
+
+
+    .find-header {
+        width: 635px;
+        height: 200px;
+        font-size: 100px;
+        line-height: 100px;
+        color: #ffffff;
+        font-weight: 700;
+        font-family: "Livvic";
+
+        .color-orange {
+            color: #f67e7e;
+        }
+    }
+
+    .long-txt-header {
+        width: 445px;
+        height: 112px;
+        font-size: 18px;
+        line-height: 28px;
+        color: #ffffff;
+        font-weight: 600;
+        font-family: "Livvic";
+        align-self: center;
+        margin-top: -60px;
+
+    }
+
+    .empty-txt {
+        width: 50px;
+        height: 4px;
+        background-color: #79c8c7;
+        margin-bottom: 66px;
+    }
+
+    .header-link {
+        font-size: 18px;
+        line-height: 28px;
+        color: #ffffff;
+        font-weight: 600;
+        font-family: "Livvic";
+        cursor: pointer;
+
+        &:hover{
+            color: #f67e7e;
+        }
+    }
+
+    .header-logo {
+        width: 160px;
+        font-size: 1.5em;
+        // height: 40px ;
+        // color: #ffffff;
+    }
+}
+
+
+img{
+    .header-bull-button {
+  
+     
+    }
+}

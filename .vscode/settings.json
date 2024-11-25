@@ -1,0 +1,6 @@
+{
+    "explorer.autoReveal": true,
+    "scm.autoReveal": true,
+    "problems.autoReveal": true,
+    "gitlens.views.repositories.autoReveal": true
+}
