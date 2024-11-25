@@ -5,7 +5,9 @@ export function MiddleHome() {
     return (
         <section  className="flex " >
             <section className="middle-container">
-                <div className="flex">
+                <div className="flex-middle">
+                {/* <img src="/images/bg-pattern-about-4.svg" alt="" className="img-middle-svg" /> */}
+
                     <div className="middle-left">
                         <p className="empty-txt-middle"></p>
                         <p className="middle-left-txt">Build & manage distributed teams like no one else.</p>
@@ -45,7 +47,6 @@ export function MiddleHome() {
 
             </section>
             <div className="middle-bull-left full">
-                <img src="/images/bg-pattern-about-4.svg" alt="" className="img-middle-svg" />
             </div>
         </section>
     )

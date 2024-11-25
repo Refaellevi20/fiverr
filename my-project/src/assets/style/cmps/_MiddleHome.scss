@@ -52,17 +52,49 @@
 
 .middle-bull-left {
     background-color: white;
-    bottom: 0;
-    position: relative;
+    text-align: end !important;
+    // bottom: 0;
+    // position: relative;
+    // background-color: #012f34;
 }
 
 .img-middle-svg {
     bottom: 0;
-    object-fit: contain;
-    position: absolute;
+    text-align: end !important;
+    // object-fit: contain;
+    // position: absolute;
 
 }
 
 img.img-middle {
     left: 320px;
+}
+
+.flex-middle {
+    display: flex;
+}
+
+@media (max-width:1160px) {
+    
+    .middle-container {
+
+        .flex-middle {
+            display: block;
+    
+        }
+    }
+    // .middle-bull-left {
+    //     background-color: white;
+    //     // bottom: 0;
+    //     position: relative;
+    // }
+    
+    // .img-middle-svg {
+    //     // bottom: 0;
+    //     object-fit: contain;
+    //     position: absolute;
+    
+    // }
+
+    // .flex-row
 }

@@ -1,6 +1,6 @@
 export function Footer() {
     return (
-        <section>
+        <section >
             <footer>
                 <div style={{ backgroundColor: '#f67e7e' }}>
 
@@ -13,26 +13,37 @@ export function Footer() {
                     </div>
                 </div>
             </footer>
-            <footer>
+            <footer className="main-layout">
                 <section className="footer-container">
                     <div className="footer-txt">
-                        <h5>mytem</h5>
-                        <div className="flex txt-gap">
-                            <p style={{color:'#fff'}}>home</p>
-                            <p style={{color:'#fff'}}>about</p>
-                        </div>
-                        <address>
-                            987 Hillcrest Lane<br />
-                            Irvine, CA<br />
-                            California 92714
-                        <p>Call Us: 949-833-7432</p>
-                        </address>
-                        <div className="social-icons">
-                        <a href="https://twitter.com/fiverr"> <img src="/img/twitter.png" alt="" /></a>
-                            <a href="https://www.facebook.com/Fiverr/"> <img src="/img/facebook.png" alt="" /></a>
-                            <a href="https://www.linkedin.com/company/fiverr-com"><img src="/img/linkedin.png" alt="" /></a>
-                        </div>
-                        <p>Copyright 2020. All Rights Reserved</p>
+                        <main className="main-footer" >
+                            <div style={{display:'block'}}>
+                            <h5>mytem</h5>
+                            <div className="flex txt-gap navigation">
+                                <p style={{ color: '#fff' }}>home</p>
+                                <p style={{ color: '#fff' }}>about</p>
+                                </div>
+                                <div className="social-icons-tablet">
+                                    <a href="https://github.com/Refaellevi20/my-home-project"> <img src="/images/github.webp" alt="" style={{width:'24px',height: '20px', borderRadius: '50%'}}/></a>
+                                    <a href="https://www.facebook.com/Fiverr/"> <img src="/images/facebook.png" alt="" /></a>
+                                    <a href="https://www.linkedin.com/company/fiverr-com"><img src="/images/linkedin.png" alt="" /></a>
+                                </div>
+                            </div>
+                            <div className="loction">
+                                <address>
+                                    987 Hillcrest Lane<br />
+                                    Irvine, CA<br />
+                                    California 92714
+                                    <p>Call Us: 949-833-7432</p>
+                                </address>
+                                <div className="social-icons">
+                                    <a href="https://github.com/Refaellevi20/my-home-project"> <img src="/images/github.webp" alt="" /></a>
+                                    <a href="https://www.facebook.com/Fiverr/"> <img src="/images/facebook.png" alt="" /></a>
+                                    <a href="https://www.linkedin.com/company/fiverr-com"><img src="/images/linkedin.png" alt="" /></a>
+                                </div>
+                                <p className="bottom-footer-txt" style={{ margin: '15px  0 50px' }}>Copyright 2020. All Rights Reserved</p>
+                            </div>
+                        </main>
                     </div>
                 </section>
             </footer>

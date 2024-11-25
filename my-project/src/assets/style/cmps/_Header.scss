@@ -105,3 +105,24 @@ img{
      
     }
 }
+
+@media (max-width:1160px) {
+header {
+    .middle-header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        text-align: center; 
+        padding: 20px;
+    }
+
+    .empty-txt {
+        display: none;
+    }
+
+    .header-bull-button {
+        right: 260px !important; 
+    }
+}
+}

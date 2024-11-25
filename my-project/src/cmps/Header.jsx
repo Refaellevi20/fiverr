@@ -28,7 +28,7 @@ export function Header() {
               
             
             </div>
-            <img src="/images/bg-pattern-home-2.svg" alt="header-bull" className="header-bull-button" style={{float: 'right',bottom: '227px',position: 'absolute',right:'100px'}}/>
+            <img src="/images/bg-pattern-home-2.svg" alt="header-bull" className="header-bull-button" style={{float: 'right',bottom: '244px',position: 'absolute',right:'100px'}}/>
 
 
         </header >
